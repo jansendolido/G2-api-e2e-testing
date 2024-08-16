@@ -17,4 +17,5 @@ jobs:
           postman collection run 20114934-c5a51187-a3f5-4206-a16d-fafa4ab44fe6 -e 20114934-5776b81e-3525-4571-a827-416160e5ff74 \
           -i "E2E Signup/SignIn" \
           -i "Contacts" \
-          -i "Invite" 
+          -i "Invite" \
+          -i "Requests"
