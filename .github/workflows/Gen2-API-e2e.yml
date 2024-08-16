@@ -18,4 +18,5 @@ jobs:
           -i "E2E Signup/SignIn" \
           -i "Contacts" \
           -i "Invite" \
-          -i "Requests"
+          -i "Requests" \
+          -i "Contacts"
