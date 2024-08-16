@@ -15,7 +15,7 @@ jobs:
       - name: Run API tests
         run: |
           postman collection run 20114934-c5a51187-a3f5-4206-a16d-fafa4ab44fe6 -e 20114934-5776b81e-3525-4571-a827-416160e5ff74 \
-          --folder 20114934-7744d2a1-07d3-41e8-8757-c10aea996948 \ # signup signin folder
-          --folder 20114934-eaca1fe9-da33-4fb5-b447-953734832811 \ # contacts folder
-          --folder 20114934-51eebc8c-e2e2-46b9-815a-b7381ce7a59d   # invite folder
+          --i 20114934-7744d2a1-07d3-41e8-8757-c10aea996948 \ # signup signin folder
+          --i 20114934-eaca1fe9-da33-4fb5-b447-953734832811 \ # contacts folder
+          --i 20114934-51eebc8c-e2e2-46b9-815a-b7381ce7a59d   # invite folder
           
