@@ -19,5 +19,5 @@ jobs:
           -i "Contacts" \
           -i "Invite" \
           -i "Requests" \
-          -i 20114934-636aa42c-4c6b-4b9b-a898-a89898e240bf \
+          -i "Contacts in an Invite" \ 
           -i "Send Invite"
