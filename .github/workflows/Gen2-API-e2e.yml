@@ -22,4 +22,12 @@ jobs:
           -i "Contacts in an Invite" \
           -i "Send Invite" \
           -i "Messages" \
-          -i "Templates"
+          -i "Templates" \
+          --reporter-json-export results/postman-results.json \
+          --reporter-html-export results/postman-results.html
+
+          - name: Upload Test Results
+          uses: actions/upload-artifact@v2
+          with:
+            name: postman-results
+            path: results/
