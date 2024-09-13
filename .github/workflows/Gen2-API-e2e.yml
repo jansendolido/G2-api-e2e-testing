@@ -22,4 +22,8 @@ jobs:
           -i "Contacts in an Invite" \
           -i "Send Invite" \
           -i "Messages" \
-          -i "Templates"
+          -i "Templates" \
+          -i "Portal Messages" \
+          -i "Portal Requests" \
+          -i "Get Portal Data"
+          
